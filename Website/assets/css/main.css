@@ -1,3 +1,6 @@
+
+
+
 /*!
  * Bootstrap Reboot v4.0.0-beta.3 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -27,7 +30,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Alfa Slab One', cursive;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -170,7 +173,7 @@ caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #868e96;
-  text-align: left;
+  text-align: center;
   caption-side: bottom; }
 
 th {
@@ -312,8 +315,8 @@ template {
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
+  --breakpoint-sm: 750px;
+  --breakpoint-md: 860px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -760,7 +763,7 @@ pre {
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 850px) {
     .container {
       max-width: 720px; } }
   @media (min-width: 992px) {
@@ -1145,7 +1148,7 @@ pre {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .col-md {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1170,10 +1173,11 @@ pre {
             flex: 0 0 16.66667%;
     max-width: 16.66667%; }
   .col-md-3 {
+
     -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
-    max-width: 25%; }
+    max-width: 100%; }
   .col-md-4 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33.33333%;
@@ -3453,7 +3457,7 @@ tbody.collapse.show {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .navbar-expand-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -4082,15 +4086,16 @@ tbody.collapse.show {
     .jumbotron {
       padding: 4rem 2rem; } }
 
+
 .jumbotron-fluid {
   padding-right: 0;
   padding-left: 0;
   border-radius: 0; }
 
 .alert {
+  text-align: center;
   position: relative;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
+  padding: 0.2rem .5rem;
   border: 1px solid transparent;
   border-radius: 0.25rem; }
 
@@ -5199,7 +5204,7 @@ button.bg-dark:hover {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; } }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .d-md-none {
     display: none !important; }
   .d-md-inline {
@@ -5566,7 +5571,7 @@ button.bg-dark:hover {
     -ms-flex-item-align: stretch !important;
         align-self: stretch !important; } }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .flex-md-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -5901,7 +5906,7 @@ button.bg-dark:hover {
   .float-sm-none {
     float: none !important; } }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .float-md-left {
     float: left !important; }
   .float-md-right {
@@ -6445,7 +6450,7 @@ button.bg-dark:hover {
   .mx-sm-auto {
     margin-left: auto !important; } }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .m-md-0 {
     margin: 0 !important; }
   .mt-md-0,
@@ -7025,7 +7030,7 @@ button.bg-dark:hover {
   .text-sm-center {
     text-align: center !important; } }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .text-md-left {
     text-align: left !important; }
   .text-md-right {
@@ -7210,7 +7215,7 @@ html {
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 850px) {
     .container {
       max-width: 720px; } }
   @media (min-width: 992px) {
@@ -7592,7 +7597,7 @@ html {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 768px) {
+@media (min-width: 3000px) {
   .col-md {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -8284,7 +8289,7 @@ html {
     -ms-flex-item-align: stretch !important;
         align-self: stretch !important; } }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .flex-md-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;

@@ -15,15 +15,51 @@ html {
 	height:100%;
 }
 h1,h2,h3,h4,h5,h6 {
-	margin:0 0 35px;
+	margin:0 0 0px;
 	text-transform:uppercase;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	font-weight:700;
 	letter-spacing:1px;
 }
+
+#gametitle{
+	font-size: 1.5vw;
+	padding-top : 5px;
+	font-family: 'Maven Pro', sans-serif;
+}
+#gameTagline{
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	letter-spacing:0.8px;
+	font-size : 1vw;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#gameDescription{
+	font-weight: 700px;
+	font-size : .8vw;
+
+font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width:1300px){
+	#gametitle{
+		width: 100%;
+		font-size:100%;
+	}
+	#gameTagline{
+		width: 100%;
+		font-size : 100%;
+	}
+	#gameDescription{
+		width: 100%;
+		font-size : 80%;
+	}
+}
+
+
+
 p {
-	margin:0 0 25px;
-	font-size:18px;
 	line-height:1.5;
 }
 img {
@@ -31,7 +67,7 @@ img {
 }
 @media(min-width:768px) {
 	p {
-			margin:0 0 35px;
+			margin:0 0 0px;
 			font-size:20px;
 			line-height:1.6;
 	}
@@ -61,7 +97,7 @@ a:hover,a:focus {
 	margin-bottom:0;
 	border-bottom:1px solid rgba(255,255,255,.3);
 	text-transform:uppercase;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	font-size:13px;
 }
 .navbar-custom .dropdown-item {
@@ -143,10 +179,10 @@ a:hover,a:focus {
 .intro {
 	display:table;
 	width:100%;
-	height:auto;
+	height:30%;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.18)),url('https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.18)),url("../../graphics/Banner.png");
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -253,14 +289,16 @@ a:hover,a:focus {
 }
 @media(min-width:767px) {
 	.content-section {
-			padding:150px 0;
+			padding-top:50px;
+			padding-bottom:10px;
 				 clear:both;
 	}
 }
 .btn {
 	border-radius:0;
 	text-transform:uppercase;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	font-family: 'Maven Pro', sans-serif;
 	font-weight:400;
 	-webkit-transition:all .3s ease-in-out;
 	-moz-transition:all .3s ease-in-out;
@@ -392,38 +430,33 @@ img {
 }
 .gallery ul {
 	margin:0;
+	width : 100%;
 
 }
 .gallery img {
-	max-width:100%;
 	height:auto;
-	padding:3%;
-	margin:0 auto;
 }
 .gallery ul li {
 	margin:0;
 	position:relative;
 	list-style:none;
-	padding:0;
+	padding: 1%;
 	display:inline-block;
 }
 .gallery ul li a {
 	display:block;
-	position:relative;
+	position: sticky;
 	width:100%;
-	height:100%;
+	height:auto;
 	margin:0;
 	padding:0;
 	line-height:0;
-	overflow:hidden;
-	max-height:220px;
 }
 .gallery ul li a:before {
-	position:absolute;
-	width:32px;
+	position:center;
+	width:0px;
 	height:32px;
 	top:40%;
-	left:50%;
 	margin:-14px 0 0 -16px;
 	background:url(data:image/svg+xml;
 	utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2017.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20id%3D%22svg2%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Asodipodi%3D%22http%3A//sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%20xmlns%3Ainkscape%3D%22http%3A//www.inkscape.org/namespaces/inkscape%22%20inkscape%3Aversion%3D%220.48.4%20r9939%22%20sodipodi%3Adocname%3D%22icon-fullscreen.svg%22%0A%09%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%20960%20560%22%0A%09%20enable-background%3D%22new%200%200%20960%20560%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Csodipodi%3Anamedview%20%20borderopacity%3D%221%22%20page
@@ -440,10 +473,7 @@ img {
 	opacity:1;
 }
 .gallery ul li a:after {
-	position:absolute;
-	width:100%;
-	top:0;
-	bottom:0;
+	position:sticky;
 	background:rgba(0,0,0,0.3);
 	content:"";
 	opacity:0;
@@ -466,6 +496,14 @@ section {
 	background-color:#f9f9f9;
 	color:#333;
 	overflow:hidden;
+}
+#portfolio{
+	background-color:#e6e6e6;
+	color:#333;
+	overflow:hidden;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
 }
 .done {
 	display:none;
