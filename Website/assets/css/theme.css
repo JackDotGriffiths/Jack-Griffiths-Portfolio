@@ -17,60 +17,56 @@ html {
 h1,h2,h3,h4,h5,h6 {
 	margin:0 0 0px;
 	text-transform:uppercase;
-	font-family: 'Maven Pro', sans-serif;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:700;
 	letter-spacing:1px;
 }
 
 #gametitle{
-	font-size: 1.5vw;
-	padding-top : 5px;
-	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.6vw;
+	padding-top : 12px;
+	padding-bottom: 0px;
 }
 #gameTagline{
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	letter-spacing:0.8px;
+	letter-spacing:1px;
 	font-size : 1vw;
-	font-family: 'Open Sans', sans-serif;
 }
-
-
 #gameDescription{
-	font-weight: 700px;
-	font-size : .8vw;
-
-font-family: 'Open Sans', sans-serif;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size : 1vw;
+	letter-spacing:1px;
 }
-
-@media screen and (max-width:1300px){
-	#gametitle{
-		width: 100%;
-		font-size:100%;
-	}
-	#gameTagline{
-		width: 100%;
-		font-size : 100%;
-	}
-	#gameDescription{
-		width: 100%;
-		font-size : 80%;
-	}
-}
-
-
-
 p {
 	line-height:1.5;
 }
 img {
 	max-width:100%;
 }
-@media(min-width:768px) {
+@media(max-width:990px) {
 	p {
 			margin:0 0 0px;
 			font-size:20px;
 			line-height:1.6;
 	}
+
+
+	#gametitle{
+		font-size: 4vw;
+	}
+	#gameTagline{
+		font-size : 2vw;
+	}
+	#gameDescription{
+		font-size : 2vw;
+	}
+
+}
+
+
+.blogfeed{
+	padding-left: 10%;
+	padding-right: 10%;
 }
 a {
 	color:inherit;
@@ -97,7 +93,7 @@ a:hover,a:focus {
 	margin-bottom:0;
 	border-bottom:1px solid rgba(255,255,255,.3);
 	text-transform:uppercase;
-	font-family: 'Maven Pro', sans-serif;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:13px;
 }
 .navbar-custom .dropdown-item {
@@ -176,6 +172,34 @@ a:hover,a:focus {
 		border:1px solid rgba(0,0,0,0.03);
 	}
 }
+
+.introHome {
+	display:table;
+	width:100%;
+	height:30%;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.18)),url("../../graphics/Banner.png");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
+
+.introHome .intro-body {
+	display:table-cell;
+	vertical-align:middle;
+}
+.introHome .intro-body .brand-heading {
+	font-size:40px;
+}
+.introHome .intro-body .intro-text {
+	font-size:18px;
+}
+
+.juicer-theme {
+	width: 10%;
+}
 .intro {
 	display:table;
 	width:100%;
@@ -200,8 +224,11 @@ a:hover,a:focus {
 }
 @media(min-width:768px) {
 	.intro {
-			height:100vh;
+			height:40vh;
 			padding:0;
+	}
+	.introHome{
+		height:100vh;
 	}
 	.intro .intro-body .brand-heading {
 			font-size:60px;
@@ -213,6 +240,20 @@ a:hover,a:focus {
 			padding:7px 0;
 	}
 	.intro .intro-body .intro-text {
+			font-size:20px;
+				font-weight:300;
+				letter-spacing:3px;
+	}
+	.introHome .intro-body .brand-heading {
+			font-size:60px;
+			margin-top:90px;
+			margin-bottom:20px;
+			border-top:2px solid #fff;
+			border-bottom:2px solid #fff;
+			display:inline-block;
+			padding:7px 0;
+	}
+	.introHome .intro-body .intro-text {
 			font-size:20px;
 				font-weight:300;
 				letter-spacing:3px;
@@ -297,8 +338,7 @@ a:hover,a:focus {
 .btn {
 	border-radius:0;
 	text-transform:uppercase;
-
-	font-family: 'Maven Pro', sans-serif;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:400;
 	-webkit-transition:all .3s ease-in-out;
 	-moz-transition:all .3s ease-in-out;
@@ -501,8 +541,6 @@ section {
 	background-color:#e6e6e6;
 	color:#333;
 	overflow:hidden;
-	padding-left: 10%;
-	padding-right: 10%;
 	padding-bottom: 3%;
 }
 .done {
