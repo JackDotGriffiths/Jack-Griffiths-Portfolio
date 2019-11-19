@@ -20,9 +20,11 @@
     <link href="assets/img/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/theme.css">
-
   </head>
 
+
+<script>
+</script>
   <body>
 
     <nav class="navbar navbar-expand-md navbar-custom fixed-top">
@@ -70,10 +72,11 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-8">
-				<h1 class="brand-heading">Jack Griffiths</h1>
-				<p class="intro-text">
-					Student Game Developer
-				</p>
+        <div id="particle-canvas">
+          <h1 class="brand-heading">Jack Griffiths</h1>
+  				<p class="intro-text">
+  					Student Game Developer
+  				</p></div>
 				<a href="#pageid" class="btn btn-circle page-scroll">
 				<i class="fa fa-angle-double-down animated"></i>
 				</a>
@@ -98,78 +101,114 @@
   </div>
   	<ul class="row justify-content-center 5px" style = "padding-inline-start:0; padding-left: 10%; padding-right: 10%;">
 
-      <li class="col-md-4" id = "portfolio-item">
-          <img src=".\graphics\HonorsProject\HomeIcon.png">
-          <h2  id = "gametitle">Honors Project</h2>
-          <p id = "gameTagline">Final Stage Project</p>
-          <p><span class="badge badge-secondary" style="background-color:#66B380"> VR Game </span><span>  </span><span class="badge badge-secondary" style="background-color:#3d9be9"> Unity3D </span><span>  </span><span class="badge badge-secondary" style="background-color:#CC504B"> C# </span><span>  </span></p>
-          <p id = "gameDescription">Honors Project developed over final stage. Official Development starts in January 2020.</p>
-          <div class="alert alert-info" role="alert">Game Design</div>
-          <div class="alert alert-secondary" role="alert">VR Optimisation</div>
-          <div class="alert alert-info" role="alert">Terrain Generation</div>
-          <div class="alert alert-secondary" role="alert">Gameplay Programming</div>
+      <li class="col-12 col-sm-6 col-lg-4" id = "portfolio-item">
+          <div class="card" style="width: 100%;">
+              <img src=".\graphics\HonorsProject\HomeIcon.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Honors Project</h5>
+                <p class="card-text">Honors Project developed over final stage. Official Development starts in January 2020.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Game Design</li>
+                <li class="list-group-item">VR Optimisation</li>
+                <li class="list-group-item">Procedural Hex Terrain</li>
+              </ul>
+              <div class="card-body" style = "background-color:WhiteSmoke; align-items: center;">
+                <button type="button" class="btn btn-info">View Project</button>
+              </div>
+          </div>
       </li>
 
-      <li class="col-md-4" id = "portfolio-item">
-          <img src=".\graphics\HYPERTEC\HomeIcon.png" alt="">
-          <h2  id = "gametitle">HYPERTEC</h2>
-          <p id = "gameTagline">Voxel Dogfighter in Space</p>
-          <p><span class="badge badge-secondary" style="background-color:#66B380"> Game </span><span>  </span><span class="badge badge-secondary" style="background-color:#3d9be9"> Unity3D </span><span>  </span><span class="badge badge-secondary" style="background-color:#CC504B"> C# </span><span>  </span></p>
-          <p id = "gameDescription">Third Person dogfighter with procedurally generated weapons and engines and quest system. Final stage team project with a huge focus on usability testing.</p>
-          <div class="alert alert-info" role="alert">Design Lead</div>
-          <div class="alert alert-secondary" role="alert">Game Design Documentation</div>
-          <div class="alert alert-info" role="alert">Asset Production</div>
-          <div class="alert alert-secondary" role="alert">User Experience & User Interface</div>
+      <li class="col-12 col-sm-6 col-lg-4" id = "portfolio-item">
+          <div class="card" style="width: 100%;">
+              <img src=".\graphics\HYPERTEC\HomeIcon.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HYPERTEC</h5>
+                <p class="card-text">Third Person dogfighter with procedurally generated weapons and engines and quest system. Final stage team project with a huge focus on usability testing.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Design Lead</li>
+                <li class="list-group-item">Game Design Documentation</li>
+                <li class="list-group-item">Asset Production</li>
+              </ul>
+              <div class="card-body" style = "background-color:WhiteSmoke">
+                <a href="#" class="card-link">Card link</a>
+              </div>
+          </div>
       </li>
 
-		    <li class="col-md-4" id = "portfolio-item">
-		        <img src=".\graphics\SlideyTanks\HomeIcon.png" alt="">
-            <h2  id = "gametitle">Slidey Tanks</h2>
-            <p id = "gameTagline">Recoil Based Shooter Arcade Game</p>
-            <p><span class="badge badge-secondary" style="background-color:#66B380"> Arcade Game </span><span>  </span><span class="badge badge-secondary" style="background-color:#3d9be9"> Unity3D </span><span>  </span><span class="badge badge-secondary" style="background-color:#CC504B"> C# </span><span>  </span></p>
-            <p id = "gameDescription">A neon vaporwave styled top-down shooter, where players have to use weapon recoil to move. Developed originally for PC and adapted to work on an Arcade Machine.</p>
-            <div class="alert alert-info" role="alert">Game Design</div>
-            <div class="alert alert-secondary" role="alert">3D Modelling</div>
-            <div class="alert alert-info" role="alert">Weekly Update Logs</div>
-            <div class="alert alert-secondary" role="alert">Usability Testing</div>
+		    <li class="col-12 col-sm-6 col-lg-4" id = "portfolio-item">
+            <div class="card" style="width: 100%;">
+                <img src=".\graphics\SlideyTanks\HomeIcon.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Slidey Tanks</h5>
+                  <p class="card-text">A neon vaporwave styled top-down shooter, where players have to use weapon recoil to move. Developed originally for PC and adapted to work on an Arcade Machine.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Game Design</li>
+                  <li class="list-group-item">3D Modelling</li>
+                  <li class="list-group-item">Weekly Progress Reports</li>
+                </ul>
+                <div class="card-body" style = "background-color:WhiteSmoke">
+                  <a href="#" class="card-link">Card link</a>
+                </div>
+            </div>
         </li>
 
-     <li class="col-md-4" id = "portfolio-item">
-         <img src=".\graphics\Dreadsite\HomeIcon.png" alt="">
-         <h2  id = "gametitle">Dreadsite</h2>
-         <p id = "gameTagline">Text Based Adventure</p>
-         <p><span class="badge badge-secondary" style="background-color:#66B380"> Website </span><span>  </span><span class="badge badge-secondary" style="background-color:#3d9be9"> HTML </span><span>  </span><span class="badge badge-secondary" style="background-color:#CC504B"> Javascript </span><span>  </span></p>
-         <p id = "gameDescription">A timed text-based adventure built during stage one. Dreadsite tkes place on an overrun spaceship, and includes systems for inventory and dice-roll style combat.</p>
-         <div class="alert alert-info" role="alert">Game Writing</div>
-         <div class="alert alert-secondary" role="alert">Game Design Introduction</div>
-         <div class="alert alert-info" role="alert">HTML & CSS</div>
-         <div class="alert alert-secondary" role="alert">Javascript</div>
+     <li class="col-12 col-sm-6 col-lg-4" id = "portfolio-item">
+         <div class="card" style="width: 18rem;">
+             <img src=".\graphics\Dreadsite\HomeIcon.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Dreadsite</h5>
+               <p class="card-text">A timed text-based adventure built during stage one. Dreadsite tkes place on an overrun spaceship, and includes systems for inventory and dice-roll style combat.</p>
+             </div>
+             <ul class="list-group list-group-flush">
+               <li class="list-group-item">Game Writing</li>
+               <li class="list-group-item">Game Design Introduction</li>
+               <li class="list-group-item">HTML,CSS & Javascript</li>
+             </ul>
+             <div class="card-body" style = "background-color:WhiteSmoke">
+               <a href="#" class="card-link">Card link</a>
+             </div>
+         </div>
      </li>
 
 
-     <li class="col-md-4" id = "portfolio-item">
-         <img src=".\graphics\Rhythm Fun\HomeIcon.png" alt="">
-         <h2  id = "gametitle">Rhythm Fun</h2>
-         <p id = "gameTagline">Rhythm Based Educational App</p>
-         <p><span class="badge badge-secondary" style="background-color:#66B380"> Android App </span><span>  </span><span class="badge badge-secondary" style="background-color:#3d9be9"> Unity3D </span><span>  </span><span class="badge badge-secondary" style="background-color:#CC504B"> C# </span><span>  </span></p>
-         <p id = "gameDescription">An educational rhythm app made for young children. Client based team project that continued into paid work and a release on the Android Play Store. </p>
-         <div class="alert alert-info" role="alert">Client Specification</div>
-         <div class="alert alert-secondary" role="alert">Repository Management</div>
-         <div class="alert alert-info" role="alert">UI Design</div>
-         <div class="alert alert-secondary" role="alert">Android App Development</div>
+     <li class="col-12 col-sm-6 col-lg-4" id = "portfolio-item">
+         <div class="card" style="width: 18rem;">
+             <img src=".\graphics\Rhythm Fun\HomeIcon.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Rhythm Fun</h5>
+               <p class="card-text">An educational rhythm app made for young children. Client based team project that continued into paid work and a release on the Android Play Store.</p>
+             </div>
+             <ul class="list-group list-group-flush">
+               <li class="list-group-item">Client Specification</li>
+               <li class="list-group-item">Repository Management</li>
+               <li class="list-group-item">Android App Development</li>
+             </ul>
+             <div class="card-body" style = "background-color:WhiteSmoke">
+               <a href="#" class="card-link">Card link</a>
+             </div>
+         </div>
      </li>
 
 
-     <li class="col-md-4" id = "portfolio-item">
-         <img src=".\graphics\The Facility\HomeIcon.png" alt="">
-         <h2  id = "gametitle">The Facility </h2>
-         <p id = "gameTagline">Laboratory Themed Escape Room</p>
-         <p><span class="badge badge-secondary" style="background-color:#66B380"> Player Experience </span><span>  </span><span class="badge badge-secondary" style="background-color:#3d9be9"> Unity3D </span><span>  </span><span class="badge badge-secondary" style="background-color:#CC504B"> C# </span><span>  </span></p>
-         <p id = "gameDescription">An escape room demo with a strong focus on immersive and coherant user experience. Consists of 3 puzzles with randomly generated solutions.</p>
-         <div class="alert alert-info" role="alert">Game Design</div>
-         <div class="alert alert-secondary" role="alert">User Stories</div>
-         <div class="alert alert-info" role="alert">3D Modelling</div>
-         <div class="alert alert-secondary" role="alert">Puzzle Design</div>
+     <li class="col-12 col-sm-6 col-lg-4" id = "portfolio-item">
+         <div class="card" style="width: 18rem;">
+             <img src=".\graphics\The Facility\HomeIcon.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Slidey Tanks</h5>
+               <p class="card-text">An escape room demo with a strong focus on immersive and coherant user experience. Consists of 3 puzzles with randomly generated solutions.</p>
+             </div>
+             <ul class="list-group list-group-flush">
+               <li class="list-group-item">Game Design</li>
+               <li class="list-group-item">User Stories</li>
+               <li class="list-group-item">Puzzle Design</li>
+             </ul>
+             <div class="card-body" style = "background-color:WhiteSmoke">
+               <a href="#" class="card-link">Card link</a>
+             </div>
+         </div>
      </li>
 
    </ul>
