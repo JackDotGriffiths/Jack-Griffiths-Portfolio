@@ -4261,7 +4261,7 @@ tbody.collapse.show {
 .list-group-item-action {
   width: 100%;
   color: #495057;
-  text-align: inherit; }
+}
   .list-group-item-action:focus, .list-group-item-action:hover {
     color: #495057;
     text-decoration: none;
@@ -4272,6 +4272,7 @@ tbody.collapse.show {
 
 .list-group-item {
   position: relative;
+  text-align: center;
   display: block;
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;

@@ -54,9 +54,6 @@
                     <a class="nav-link" href="Devlog.html">Devlog</a>
                     </li>
 
-                    <li class="nav-item">
-                    <a class="nav-link eventdl" href="https://www.linkedin.com/in/jackgriffithsdev"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </li>
 
                 </ul>
 
@@ -67,22 +64,39 @@
 
 
 <!-- Intro -->
-<div class="introHome">
-<div class="intro-body">
+<div class="intro">
+  <div class = "intro-body">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-8">
-        <div id="particle-canvas">
           <h1 class="brand-heading">Jack Griffiths</h1>
   				<p class="intro-text">
   					Student Game Developer
-  				</p></div>
-				<a href="#pageid" class="btn btn-circle page-scroll">
-				<i class="fa fa-angle-double-down animated"></i>
+  				</p>
+          <ul class="list-inline banner-social-buttons">
+
+            <li class="d-inline">
+            <a href="https://jackdotgriff.itch.io/" id = "ItchButton" class="btn btnghost btn-lg"><i class="fab fa-itch-io"></i><span class="network-name">Itch.IO</span></a>
+            </li>
+
+            <li class="d-inline">
+            <a href="https://twitter.com/jackdotgriff" id = "TwitterButton" class="btn btnghost btn-lg"><i class="fab fa-twitter"></i> <span class="network-name">Twitter</span></a>
+            </li>
+
+            <li class="d-inline">
+            <a href="https://www.linkedin.com/in/jackgriffithsdev" id = "LinkedInButton" class="btn btnghost btn-lg"><i class="fab fa-linkedin-in"></i> <span class="network-name">LinkedIn</span></a>
+            </li>
+
+            <li class="d-inline">
+            <a href="https://www.youtube.com/channel/UCGHwbjOACbCsY3_4dWVoGbg" id = "YouTubeButton" class="btn btnghost btn-lg"><i class="fab fa-youtube"></i><span class="network-name">YouTube</span></a>
+            </li>
+
+          </ul>
 				</a>
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 </div>
 
@@ -91,30 +105,25 @@
 <div class="gallery">
   <div class="container content-section text-center">
   	<div class="row justify-content-center">
-  		<div class="col-md-8">
-        <br>
-              <h1 class="d-block">Portfolio</h1>
-              <br>
-              <br>
-      </div>
+              <i class="fas fa-chevron-right fa-2x" style = "line-height: 1.5; margin-right: 2%;"></i><h1>  Portfolio</h1><i class="fas fa-chevron-left fa-2x" style = "line-height: 1.5; margin-left:2%;"></i>
     </div>
   </div>
-  	<ul class="row justify-content-center 5px" style = "padding-inline-start:0; padding-left: 10%; padding-right: 10%;">
+  	<ul class="row justify-content-center 5px" style = "padding-inline-start:0; padding-left: 2%; padding-right: 2%;">
 
       <li class="col-12 col-sm-6 col-lg-4" id = "portfolio-item">
-          <div class="card" style="width: 100%;" style = "">
+          <div class="card">
               <img src=".\graphics\HonorsProject\HomeIcon.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Honors Project</h5>
+                <h3 class="card-title">Honors Project</h3>
                 <p class="card-text">Honors Project developed over final stage. Official Development starts in January 2020.</p>
               </div>
-              <ul class="list-group align-center">
-                <li class="list-group-item">Game Design</li>
+              <ul class="list-group">
+                <li class="list-group-item ">Game Design</li>
                 <li class="list-group-item">VR Optimisation</li>
                 <li class="list-group-item">Procedural Hex Terrain</li>
               </ul>
-              <div class="card-body text-center" style = "background-color:WhiteSmoke;">
-                <button type="button" class="btn btn-info btn-md" style = "align-items:center">View Project</button>
+              <div class="card-body text-center" style = "background-color:WhiteSmoke; padding : 3%;">
+                <button type="button" class="btn btn-info .btn-block rounded">View Project</button>
               </div>
           </div>
       </li>
@@ -123,16 +132,16 @@
           <div class="card" style="width: 100%;">
               <img src=".\graphics\HYPERTEC\WeaponDisplayNoLogo.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">HYPERTEC</h5>
-                <p class="card-text">Third Person dogfighter with procedurally generated weapons and engines and quest system. Final stage team project with a huge focus on usability testing.</p>
+                <h3 class="card-title">HYPERTEC</h3>
+                <p class="card-text">Third Person dogfighter with procedurally generated weapons and engines. Final stage team project with a huge focus on usability testing.</p>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Design Lead</li>
                 <li class="list-group-item">Game Design Documentation</li>
                 <li class="list-group-item">Asset Production</li>
               </ul>
-              <div class="card-body" style = "background-color:WhiteSmoke">
-                <a href="#" class="card-link">Card link</a>
+              <div class="card-body text-center" style = "background-color:WhiteSmoke;padding : 3%;"">
+                <button type="button" class="btn btn-info .btn-block rounded">View Project</button>
               </div>
           </div>
       </li>
@@ -141,7 +150,7 @@
             <div class="card" style="width: 100%;">
                 <img src=".\graphics\SlideyTanks\3MP - Glitched.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Slidey Tanks</h5>
+                  <h3 class="card-title">Slidey Tanks</h3>
                   <p class="card-text">A neon vaporwave styled top-down shooter, where players have to use weapon recoil to move. Developed originally for PC and adapted to work on an Arcade Machine.</p>
                 </div>
                 <ul class="list-group list-group-flush">
@@ -149,8 +158,8 @@
                   <li class="list-group-item">3D Modelling</li>
                   <li class="list-group-item">Weekly Progress Reports</li>
                 </ul>
-                <div class="card-body" style = "background-color:WhiteSmoke">
-                  <a href="#" class="card-link">Card link</a>
+                <div class="card-body text-center" style = "background-color:WhiteSmoke;">
+                  <button type="button" class="btn btn-info .btn-block rounded">View Project</button>
                 </div>
             </div>
         </li>
@@ -159,7 +168,7 @@
          <div class="card" style="width: 100%;">
              <img src=".\graphics\Dreadsite\HomeIcon.png" class="card-img-top" alt="...">
              <div class="card-body">
-               <h5 class="card-title">Dreadsite</h5>
+               <h3 class="card-title">Dreadsite</h3>
                <p class="card-text">A timed text-based adventure built during stage one. Dreadsite tkes place on an overrun spaceship, and includes systems for inventory and dice-roll style combat.</p>
              </div>
              <ul class="list-group list-group-flush">
@@ -167,8 +176,8 @@
                <li class="list-group-item">Game Design Introduction</li>
                <li class="list-group-item">HTML,CSS & Javascript</li>
              </ul>
-             <div class="card-body" style = "background-color:WhiteSmoke">
-               <a href="#" class="card-link">Card link</a>
+             <div class="card-body text-center" style = "background-color:WhiteSmoke;">
+               <button type="button" class="btn btn-info .btn-block rounded">View Project</button>
              </div>
          </div>
      </li>
@@ -178,7 +187,7 @@
          <div class="card" style="width: 100%;">
              <img src=".\graphics\Rhythm Fun\RFLessonsSelect.png" class="card-img-top" alt="...">
              <div class="card-body">
-               <h5 class="card-title">Rhythm Fun</h5>
+               <h3 class="card-title">Rhythm Fun</h3>
                <p class="card-text">An educational rhythm app made for young children. Client based team project that continued into paid work and a release on the Android Play Store.</p>
              </div>
              <ul class="list-group list-group-flush">
@@ -186,8 +195,8 @@
                <li class="list-group-item">Repository Management</li>
                <li class="list-group-item">Android App Development</li>
              </ul>
-             <div class="card-body" style = "background-color:WhiteSmoke">
-               <a href="#" class="card-link">Card link</a>
+             <div class="card-body text-center" style = "background-color:WhiteSmoke;">
+               <button type="button" class="btn btn-info .btn-block rounded">View Project</button>
              </div>
          </div>
      </li>
@@ -197,7 +206,7 @@
          <div class="card" style="width: 100%;">
              <img src=".\graphics\The Facility\Puzzle01.png" class="card-img-top" alt="...">
              <div class="card-body">
-               <h5 class="card-title">Slidey Tanks</h5>
+               <h3 class="card-title">Slidey Tanks</h3>
                <p class="card-text">An escape room demo with a strong focus on immersive and coherant user experience. Consists of 3 puzzles with randomly generated solutions.</p>
              </div>
              <ul class="list-group list-group-flush">
@@ -205,8 +214,8 @@
                <li class="list-group-item">User Stories</li>
                <li class="list-group-item">Puzzle Design</li>
              </ul>
-             <div class="card-body" style = "background-color:WhiteSmoke">
-               <a href="#" class="card-link">Card link</a>
+             <div class="card-body text-center" style = "background-color:WhiteSmoke;">
+               <button type="button" class="btn btn-info .btn-block rounded">View Project</button>
              </div>
          </div>
      </li>
