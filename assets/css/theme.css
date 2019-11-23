@@ -84,6 +84,44 @@ img {
 	height : auto;
 
 }
+#slideyTanksImage{
+	background: url("../../graphics/SlideyTanks/3MP - Glitched.png");
+	background-position: center;
+	background-size:cover;
+}
+#slideyTanksImage:hover{
+	background : url("../../graphics/SlideyTanks/SlideyTanksGameplay.gif");
+	background-position: center;
+	background-size:cover;
+}
+
+#HYPERTECImage{
+	background: url("../../graphics/HYPERTEC/GameplayImage 0.png");
+	background-position: center;
+	background-size:cover;
+}
+#HYPERTECImage:hover{
+	background : url("../../graphics/HYPERTEC/HYPERTECHomeGif.gif");
+	background-position: center;
+	background-size:cover;
+}
+
+#TheFacilityImage{
+	background: url("../../graphics/The Facility/Puzzle01.png");
+	background-position: center;
+	background-size:cover;
+}
+#TheFacilityImage:hover{
+	background : url("../../graphics/The Facility/TheFacilityHomeGif.gif");
+	background-position: center;
+	background-size:cover;
+}
+
+
+
+
+
+
 
 .blogfeed{
 	padding-left: 10%;
@@ -521,7 +559,6 @@ img {
 	display:inline-block;
 }
 .gallery ul li a {
-	display:block;
 	position: sticky;
 	width:100%;
 	height:auto;
