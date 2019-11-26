@@ -651,10 +651,8 @@ h6, .h6 {
   line-height: 1.2; }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  border-top: 2px solid rgba(0, 0, 0, 0.1); }
 
 small,
 .small {
@@ -4128,11 +4126,11 @@ tbody.collapse.show {
     color: #002752; }
 
 .alert-secondary {
-  color: black;
-  background-color: #e7e8ea;
-  border-color: #dddfe2; }
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2); }
   .alert-secondary hr {
-    border-top-color: #cfd2d6; }
+    border-top-color: rgba(255, 255, 255, 0.2);}
   .alert-secondary .alert-link {
     color: #2e3133; }
 
