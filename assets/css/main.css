@@ -22,6 +22,11 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
 
+  iframe {
+  width: 540px !important;
+  height: 304px !important;
+}
+
 @-ms-viewport {
   width: device-width; }
 
