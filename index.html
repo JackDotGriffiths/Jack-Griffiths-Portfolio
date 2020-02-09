@@ -41,11 +41,11 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
+                          <a class="dropdown-item" href="hypertec.html">High Ground</a>
                           <a class="dropdown-item" href="hypertec.html">HYPERTEC</a>
                           <a class="dropdown-item" href="slideytanks.html">Slidey Tanks</a>
-                          <a class="dropdown-item" href="thefacility.html">The Facility</a>
                           <a class="dropdown-item" href="rhythmfun.html">Rhythm Fun</a>
                           <a class="dropdown-item" href="potionpeddler.html">Potion Peddler</a>
                           <a class="dropdown-item" href="contrelement.html">Contrelement</a>
@@ -53,7 +53,7 @@
                     </li>
 
                     <li class="nav-item">
-                    <a class="nav-link" href="Devlog.html">Devlog</a>
+                    <a class="nav-link" href="devlog.html">Devlog</a>
                     </li>
 
 
@@ -68,13 +68,12 @@
 <!-- Intro -->
 <div class="introHome">
   <div id = "promoVideo">
-  <div class = "introHome-body">
-    <video autoplay muted loop id="promoVideo">
-      <source src = "./graphics/ProjectPromo.mp4" type = "video/mp4">
+    <div class = "introHome-body">
+      <video autoplay muted loop id="promoVideo">
+        <source src = "./graphics/ProjectPromo.mp4" type = "video/mp4">
+    </div>
   </div>
-</div>
-	<div class="container">
-		<div class="row justify-content-center" style = "padding-top : 20%;" >
+		<div class="row justify-content-center" style = "position: absolute; top: 30%;left: 50%;  margin-right: -50%;  transform: translate(-50%, -50%)">
 			<div class="col-md-8">
           <img src = "./graphics/LogoFile.png" style = "width: 10vh"/>
           <h1 class="brand-heading" style = "font-size: 4rem">Jack Griffiths</h1>
@@ -82,19 +81,19 @@
           <a class="introHome-text" style = "font-size: 20px" href = "mailto:message@jackgriffiths.me"><i class="far fa-envelope"></i>  Email : message@jackgriffiths.me</a>
           <ul class="list-inline banner-social-buttons">
 
-            <li class="d-inline">
-            <a href="https://jackdotgriff.itch.io/" id = "ItchButton" class="btn btnghost btn-lg"><i class="fab fa-itch-io"></i><span class="network-name">Itch.IO</span></a>
+            <li class="d-none d-xl-inline">
+            <a href="https://jackdotgriff.itch.io/" id = "ItchButton" class="btn btnghost btn-lg"><i class="fab fa-itch-io"></i><span class="network-name">Itch.io</span></a>
             </li>
 
-            <li class="d-inline">
+            <li class="d-none d-xl-inline">
             <a href="https://twitter.com/jackdotgriff" id = "TwitterButton" class="btn btnghost btn-lg"><i class="fab fa-twitter"></i> <span class="network-name">Twitter</span></a>
             </li>
 
-            <li class="d-inline">
+            <li class="d-none d-xl-inline">
             <a href="https://www.linkedin.com/in/jackgriffithsdev" id = "LinkedInButton" class="btn btnghost btn-lg"><i class="fab fa-linkedin-in"></i> <span class="network-name">LinkedIn</span></a>
             </li>
 
-            <li class="d-inline">
+            <li class="d-none d-xl-inline">
             <a href="https://www.youtube.com/channel/UCGHwbjOACbCsY3_4dWVoGbg" id = "YouTubeButton" class="btn btnghost btn-lg"><i class="fab fa-youtube"></i><span class="network-name">YouTube</span></a>
             </li>
 
@@ -102,7 +101,6 @@
 			</div>
 		</div>
 	</div>
-</div>
 </div>
 </div>
 
@@ -116,17 +114,36 @@
   </div>
   	<ul class="row justify-content-center 2px" style = "padding-inline-start:0;">
 
+
       <li class="col-sm-12 col-lg-6 col-xl-4" id = "portfolio-item">
           <div class="card" style="width: 100%; height : 100%;">
-              <a href= "hypertec.html"> <div id = "HYPERTECImage" class="card-img-top"alt="..."></div></a>
+                <a href= "thefacility.html"> <img src=".\graphics\Rhythm Fun\RFLessonsSelect.png" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h3 class="card-title">High Ground VR</h3>
+                <p class="card-text">Virtual Reality Tower Defence Game. Features hex environment, intelligent enemies and fun VR combat. Solo honours project currently under development.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Design Lead</strong> <br>(Game Design Documentation)</li>
+                <li class="list-group-item"><strong>Asset Production </strong><br>(Photoshop, Blender)</li>
+                <li class="list-group-item"><strong>Programming Lead </strong><br>(Unity 3D, C#)</li>
+              </ul>
+              <div class="card-body text-center" style = "background-color:WhiteSmoke;padding : 3%;">
+                <a href="thefacility.html" lass="btn btn-info .btn-block rounded"><button type = "button" class="btn btn-info .btn-block rounded" style = "width:100%;height:100%">Learn More</button></a>
+              </div>
+          </div>
+      </li>
+
+      <li class="col-sm-12 col-lg-6 col-xl-4" id = "portfolio-item">
+          <div class="card" style="width: 100%; height : 100%;">
+              <a href= "hypertec.html"> <img src=".\graphics\HYPERTEC\Screenshot_1.png" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h3 class="card-title">HYPERTEC</h3>
                 <p class="card-text">Third Person dogfighter with procedurally generated weapons and engines. Final stage team project with a huge focus on usability testing.</p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Design Lead</li>
-                <li class="list-group-item">Asset Production</li>
-                <li class="list-group-item">Usability Testing</li>
+                <li class="list-group-item"><strong>Design Lead </strong><br>(GDD, Photoshop)</li>
+                <li class="list-group-item"><strong>Asset Production </strong><br>(MagicaVoxel)</li>
+                <li class="list-group-item"><strong>Quality Assurance </strong><br>(Usability Testing)</li>
               </ul>
               <div class="card-body text-center" style = "background-color:WhiteSmoke;padding : 3%;">
                 <a href= "hypertec.html" class="btn btn-info .btn-block rounded"><button type = "button" class="btn btn-info .btn-block rounded" style = "width:100%;height:100%">Learn More</button></a>
@@ -137,15 +154,15 @@
 
 		    <li class="col-sm-12 col-lg-6 col-xl-4" id = "portfolio-item">
             <div class="card" style="width: 100%; height : 100%;">
-                <a href= "slideytanks.html">   <div id = "slideyTanksImage" class="card-img-top"alt="..."></div></a>
+                <a href= "slideytanks.html">   <img src=".\graphics\SlideyTanks\1MP - Glitched.png" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                   <h3 class="card-title">Slidey Tanks</h3>
-                  <p class="card-text">A neon vaporwave styled top-down shooter, where players have to use weapon recoil to move. Developed for PC and adapted to work on an Arcade Machine.</p>
+                  <p class="card-text">A vaporwave styled top-down shooter, where players have to use weapon recoil to move. Developed for PC and adapted to work on an Arcade Machine. Developed as a solo project.</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Design Lead</li>
-                  <li class="list-group-item">Asset Production</li>
-                  <li class="list-group-item">Programming Lead</li>
+                  <li class="list-group-item"><strong>Asset Production </strong><br>(3DsMax)</li>
+                  <li class="list-group-item"><strong>Quality Assurance </strong><br>(Usability Testing)</li>
+                  <li class="list-group-item"><strong>Programming Lead </strong><br>(Unity3D, C#)</li>
                 </ul>
                 <div class="card-body" style = "background-color:WhiteSmoke;padding : 3%;text-align:center">
                   <a href="slideytanks.html" lass="btn btn-info .btn-block rounded"><button type = "button" class="btn btn-info .btn-block rounded" style = "width:100%;height:100%">Learn More</button></a>
@@ -155,32 +172,15 @@
 
         <li class="col-sm-12 col-lg-6 col-xl-4" id = "portfolio-item">
             <div class="card" style="width: 100%; height : 100%;">
-                  <a href= "thefacility.html"> <div id = "TheFacilityImage" class="card-img-top"alt="..."></div></a>
-                <div class="card-body">
-                  <h3 class="card-title">The Facility</h3>
-                  <p class="card-text">An escape room demo with a strong focus on immersive and coherant user experience. Consists of 3 puzzles with randomly generated solutions.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Design Lead</li>
-                  <li class="list-group-item">Asset Production</li>
-                  <li class="list-group-item">Programming Lead</li>
-                </ul>
-                <div class="card-body text-center" style = "background-color:WhiteSmoke;padding : 3%;">
-                  <a href="thefacility.html" lass="btn btn-info .btn-block rounded"><button type = "button" class="btn btn-info .btn-block rounded" style = "width:100%;height:100%">Learn More</button></a>
-                </div>
-            </div>
-        </li>
-        <li class="col-sm-12 col-lg-6 col-xl-4" id = "portfolio-item">
-            <div class="card" style="width: 100%; height : 100%;">
                   <a href= "rhythmfun.html"> <img src=".\graphics\Rhythm Fun\RFLessonsSelect.png" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                   <h3 class="card-title">Rhythm Fun</h3>
                   <p class="card-text">An educational rhythm app made for young children to aid in early years development. Client based team project that continued into paid work and a release on the Android Play Store.</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Technical Lead</li>
-                  <li class="list-group-item">User Interface Designer</li>
-                  <li class="list-group-item">Android App Development</li>
+                  <li class="list-group-item"><strong>Technical Lead </strong><br>(GitHub, Functionality Testing)</li>
+                  <li class="list-group-item"><strong>User Interface Designer </strong><br>(Market Research, Usability Testing)</li>
+                  <li class="list-group-item"><strong>Android App Development </strong><br>(Unity3D, C#)</li>
                 </ul>
                 <div class="card-body text-center" style = "background-color:WhiteSmoke;padding : 3%;">
                   <a href="rhythmfun.html" lass="btn btn-info .btn-block rounded"><button type = "button" class="btn btn-info .btn-block rounded" style = "width:100%;height:100%">Learn More</button></a>
@@ -193,12 +193,12 @@
               <a href= "potionpeddler.html"><img src=".\graphics\PotionPeddler\HomeIcon.png" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                   <h3 class="card-title">Potion Peddler</h3>
-                  <p class="card-text">A fantasy themed idle clicker app developed during summer break. Features swipe controls, random generation and basic progression.</p>
+                  <p class="card-text">A fantasy themed idle clicker app developed during summer break. Features swipe controls, random generation and basic progression. Developed as a solo project.</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Client Specification</li>
-                  <li class="list-group-item">Repository Management</li>
-                  <li class="list-group-item">Android App Development</li>
+                  <li class="list-group-item"><strong>Programming Lead </strong><br>(Unity, C#)</li>
+                  <li class="list-group-item"><strong>User Interface Designer </strong><br>(Market Research, Usability Testing)></li>
+                  <li class="list-group-item"><strong>Android App Development </strong><br>(Unity, C#)</li>
                 </ul>
                 <div class="card-body text-center" style = "background-color:WhiteSmoke;padding : 3%;">
                   <a href="potionpeddler.html" lass="btn btn-info .btn-block rounded"><button type = "button" class="btn btn-info .btn-block rounded" style = "width:100%;height:100%">Learn More</button></a>
@@ -212,12 +212,12 @@
             <a href= "contrelement.html"> <img src=".\graphics\contrelement\HomeIcon.png" class="card-img-top" alt="..."></a>
              <div class="card-body">
                <h3 class="card-title">Contrelement</h3>
-               <p class="card-text">Contrelement is an elemental based tower defense game made in 3 days by a team of 3, for the Geta Game Jam 9! The theme for this game jam was "Contrasting Elements", and our team came 5th out of 33.</p>
+               <p class="card-text">Elemental based tower defense game made in 3 days in a team, for the Geta Game Jam 9! The theme for this game jam was "Contrasting Elements", and our team came 5th out of 33.</p>
              </div>
              <ul class="list-group list-group-flush">
-               <li class="list-group-item">Rapid Prototyping</li>
-               <li class="list-group-item">User Experience</li>
-               <li class="list-group-item">Competitive Development</li>
+               <li class="list-group-item"><strong>Rapid Prototyping </strong><br>(Unity, C#)</li>
+               <li class="list-group-item"><strong>User Experience </strong><br>(Game Design)</li>
+               <li class="list-group-item"><strong>Competitive Development </strong><br>(Game Jam Constraints)</li>
              </ul>
              <div class="card-body text-center" style = "background-color:WhiteSmoke;padding : 3%;">
                <a href="contrelement.html" lass="btn btn-info .btn-block rounded"><button type = "button" class="btn btn-info .btn-block rounded" style = "width:100%;height:100%">Learn More</button></a>
@@ -266,7 +266,7 @@
 <footer style = "background-color: #324158;">
 <div class="container text-center" >
     <p class="credits">
-        Copyright &copy; Jack Griffiths 2019<br/>
+        Copyright &copy; Jack Griffiths 2020<br/>
         <a  href = "mailto:message@jackgriffiths.me"><i class="far fa-envelope"></i>  Email : message@jackgriffiths.me</a>
     </p>
 </div>
