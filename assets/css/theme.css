@@ -156,6 +156,12 @@ img {
 	background-size:cover;
  padding-bottom: 20px;
 }
+#HighGroundSection{
+	background:linear-gradient(0deg,rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("../../graphics/HighGround/Placeholder.png");
+	 background-position: center;
+	background-size:cover;
+ padding-bottom: 20px;
+}
 
 #gamepageDescription{
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -167,6 +173,7 @@ img {
 #gameStatsHeading{
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size : 1.2rem;
+	font-weight: 700;
 	padding-bottom: 0px;
 }
 
